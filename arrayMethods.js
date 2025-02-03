@@ -15,3 +15,7 @@ console.log(sum);
 
 //forEach method
 numArr.forEach((num) => console.log(num * 2))
+
+//concat
+let concatenatedRes = numArr.concat(nameArr)
+console.log(concatenatedRes)
