@@ -12,3 +12,6 @@ console.log(namesWithA);
 //reduce method
 let sum = numArr.reduce((acc, curr) => acc + curr, 0);
 console.log(sum);
+
+//forEach method
+numArr.forEach((num) => console.log(num * 2))
