@@ -3,4 +3,9 @@ function addNumbers(x,y){
 }
 
 let sum = addNumbers(3,6)
-console.log(sum);
+console.log(sum)
+
+function person({name, age}){
+    console.log(`My name is ${name} and I am ${age}`);
+    
+}
