@@ -19,3 +19,8 @@ numArr.forEach((num) => console.log(num * 2))
 //concat
 let concatenatedRes = numArr.concat(nameArr)
 console.log(concatenatedRes)
+
+//split
+for (user of nameArr){
+    console.log(user.split())
+}

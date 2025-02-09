@@ -7,5 +7,4 @@ console.log(sum)
 
 function person({name, age}){
     console.log(`My name is ${name} and I am ${age}`);
-    
 }
