@@ -12,4 +12,16 @@ class BankAccount {
     this.balance -= amount;
     console.log(`An amount of ${amount} has been debited from your account`);
   }
+
+  checkBalance(){
+     console.log(`Your remaining balance is ${this.balance}`);
+  }
 }
+
+const myAcc = new BankAccount()
+
+myAcc.deposit(100)
+myAcc.checkBalance()
+myAcc.withdraw(90)
+myAcc.balance = 80
+myAcc.checkBalance()
