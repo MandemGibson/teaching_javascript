@@ -28,3 +28,8 @@ for (user of nameArr){
 //sort in descending order
 const desc = numArr.sort((a, b) => b - a)
 console.log(desc);
+
+//sort in ascending order
+const asc = numArr.sort((a, b) => a - b)
+console.log(asc);
+
