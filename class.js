@@ -23,5 +23,4 @@ const myAcc = new BankAccount()
 myAcc.deposit(100)
 myAcc.checkBalance()
 myAcc.withdraw(90)
-myAcc.balance = 80
 myAcc.checkBalance()

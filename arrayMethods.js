@@ -24,3 +24,7 @@ console.log(concatenatedRes)
 for (user of nameArr){
     console.log(user.split())
 }
+
+//sort in descending order
+const desc = numArr.sort((a, b) => b - a)
+console.log(desc);
