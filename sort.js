@@ -12,3 +12,7 @@ function bubbleSort(arr) {
 }
 
 console.log(bubbleSort([5, 3, 8, 4, 2, 0, 12, 1]));
+
+function mergeSort(arr){
+  
+}
