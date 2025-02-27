@@ -33,3 +33,6 @@ console.log(desc);
 const asc = numArr.sort((a, b) => a - b)
 console.log(asc);
 
+//length
+console.log(numArr.length)
+
