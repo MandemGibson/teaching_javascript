@@ -8,10 +8,8 @@ function bubbleSort(arr) {
       }
     }
   }
-  return arr;
+  console.log(arr);
 }
-
-console.log(bubbleSort([5, 3, 8, 4, 2, 0, 12, 1]));
 
 function selectionSort(arr) {
   for (let i = 0; i < arr.length; i++) {
@@ -28,10 +26,8 @@ function selectionSort(arr) {
     }
   }
 
-  return arr;
+  console.log(arr);
 }
-
-console.log(selectionSort([5, 3, 8, 4, 2, 0, 12, 1]));
 
 function insertionSort(arr) {
   for (let i = 1; i < arr.length; i++) {
@@ -43,7 +39,9 @@ function insertionSort(arr) {
     }
     arr[j + 1] = current;
   }
-  return arr
+  console.log(arr);
 }
 
-console.log(insertionSort([5, 3, 8, 4, 2, 0, 12, 1]));
+selectionSort([5, 3, 8, 4, 2, 0, 12, 1]);
+bubbleSort([5, 3, 8, 4, 2, 0, 12, 1]);
+insertionSort([5, 3, 8, 4, 2, 0, 12, 1]);
