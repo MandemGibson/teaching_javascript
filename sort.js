@@ -23,7 +23,6 @@ function bubbleSort(arr) {
   console.log("Total comparisons/swaps attempted:", count);
 }
 
-
 function selectionSort(arr) {
   for (let i = 0; i < arr.length; i++) {
     let min = i;
@@ -61,4 +60,5 @@ function insertionSort(arr) {
 
 selectionSort([5, 3, 8, 4, 2, 0, 12, 1]);
 bubbleSort([5, 3, 8, 4, 2, 0, 12, 1]);
+bubbleSort(["a", "c", "b", "z", "m", "y", "j"]);
 insertionSort([5, 3, 8, 4, 2, 0, 12, 1]);
